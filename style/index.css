@@ -137,3 +137,66 @@ hr{
     border-top: 1px solid #979797;
     margin-top: 100px;
 }
+/* Awards */
+
+.Awwwards-1{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+.head{
+    font-weight: bold;
+    font-size: 20px;
+
+}
+.sits{
+    font-weight: bold;
+    font-size: 18px;
+    
+
+}
+.UI-kit{
+    font-size: 16px;
+    color: #111111;
+
+}
+.UI-kit p{
+    font-size: 16px;
+    color: #979797;
+}
+.years{
+    justify-content: flex-end;
+}
+
+.Awwwards-2{
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    justify-content: space-between;
+    
+}
+.head-2{
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+
+.navigation{
+    font-weight: bold;
+    font-size: 18px;
+    
+    
+
+}
+.G-template{
+    font-size: 16px;
+    color: #111111;
+
+}
+.G-template p{
+    font-size: 16px;
+    color: #979797;
+}
+.years{
+    justify-content: flex-end;
+}

@@ -5,16 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Genesis-Portfolio</title>
     <link rel="stylesheet" href="style/index.css">
+    <link rel="stylesheet" href="style/reset.css">
     <link rel="stylesheet" href="@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');">
     
 </head>
 <body>
     <!-- Home section -->
-    <div class="Home-container">
-        <header>
             <nav>
-                <div class="Home-container">
-                    <h3 class="logo"><span><img src="images/logo_genesis.jpg" alt="logo of site"></span></h3>
+                <div class="container main-nav flex">
+                    <div class="company-logo">
+                    <img src="images/logo_genesis.jpg" alt="logo of site">
                 </div>
                 <div class="nav-links">
                     <ul class="nav-links">
@@ -23,14 +23,15 @@
                     </ul>
                 </div>
             </nav>
-        </header>
+    
     <!-- title -->
-        <section>
-            <div class="title-container">
-                <h4 class="text">Shooting Stars</h4>
-                <p class="text-info">Hello, I'm Bakhtiyar Sattarov,<span class="blue">product designer</span> with experience in studios and startups</p>
-            </div>
-        </section>
+    <section>
+        <div class="title-container ">
+            <h4 class="text">Shooting Stars</h4>
+            <p class="text-info">Hello, I'm Bakhtiyar Sattarov,<br>
+                <span class="blue">product designer</span> with experience in studios and startups</p>
+        </div>
+    </section>
 
     <!-- Quote section--> 
      
@@ -39,56 +40,35 @@
             <div class="rectanglr"></div>
             <div class="Quote-text">Design is about progress</div>
         </div>
-    </section>
+    </section><br><br>
 
     <!--Gallery section -->
 
     <section>
-        <div class="img-container">
-            <div>
-                <img src="images/img1.png" alt="picture"> 1
-            </div>
-            <div>
-                <img src="images/img2.png" alt="">2
-            </div>
-            <div>
-                <img src="images/img3.png" alt="">3
-            </div>
-            <div>
-                <img src="images/img4.png" alt="">4
-            </div>
-            <div>
-                <img src="images/img5.png" alt="">5
-            </div>
-            <div>
-                <img src="images/img6.png" alt="">6
-            </div>
-            <div>
-                <img src="images/img7.png" alt="">7
-            </div>
-            <div>
-                <img src="images/img8.png" alt="">8
-            </div>
-            <div>
-                <img src="images/img9.png" alt="">9
-            </div>
-            <div>
-                <img src="images/img10.png" alt="">10
-            </div>
-            <div>
-                <img src="images/img11.png" alt="">11
-            </div>
-            <div>
-                <img src="images/img12.png" alt="">12
-            </div>
-        
+        <div class="image-grid">
+                <img src="images/img1.png" alt="image1">
+                <img src="images/img2.png" alt="image2">
+                <img src="images/img3.png" alt="image3">
+                <img src="images/img4.png" alt="image4">
+                <img src="images/img5.png" alt="image5">
+                <img src="images/img6.png" alt="image6">
+                <img src="images/img7.png" alt="image7">
+                <img src="images/img8.png" alt="image8">
+                <img src="images/img9.png" alt="image9">
+                <img src="images/img10.png" alt="image10">
+                <img src="images/img11.png" alt="image11">
+                <img src="images/img12.png" alt="image12">
+                
+
         </div>
-    </section>
+
+    </section><br><br><br>
 
     <!-- Group section -->
      <section>
         <div class="group-container">
-            <div class="group-text">We love work hard and explore new things that's why we cover lot of things. Check our service list and view details
+            <div class="group-text">
+                <p>We love work hard and explore new things that's why we cover lot of things. Check our service list and view details</p>
 
             </div>
             <div class="services">
@@ -150,11 +130,68 @@
             <div>
                 <p><hr class="solid"></p>
              </div>
-            <div class="CSSDesignAwards"></div>
+
+            <div class="CSSDesignAwards">
+                <div class="Awwwards-1">
+                    <div class="head">
+                        <h4>CSSDesignAward</h4>
+                    </div>
+                    <div class="sits-CSSD">
+                        <h4>Sits of the day</h4>
+                    </div>
+                    <div class="UI-kit-CSSD">
+                        <h5>Genesis UI kit</h5>
+                        <p>Application that helps to find nearest sports centers</p>
+                    </div>
+                    <div class="years-CSSD">
+                        <p>2017</p>
+                    </div>
+                </div>
+                <div class="Awwwards-2">
+                    <div class="head-2">
+                        <h3>Awwwards</h3>
+                    </div>
+                    <div class="navigation">
+                        <h4>Best navigation</h4>
+                    </div>
+                    <div class="G-template">
+                        <h5>Genesis Template</h5>
+                        <p>Application that helps to find nearest sports centers</p>
+                    </div>
+                    <div class="years">
+                        <p>2016</p>
+                    </div>
+            </div>
+            <div>
+                <p><hr class="solid"></p>
+             </div>
         </div>
       </section>
+
+      <!-- footer -->
+
+        <footer>
+        <div class="footer">
+            <nav>
+                <div class="container main-nav flex">
+                    <div class="company-logo">
+                    <img src="images/logo_genesis.jpg" alt="logo of site">
+                </div>
+                <div class="nav-links">
+                    <ul class="nav-links">
+                        <li> <a href="#" class="hover-link">Projects</a></li>
+                        <li> <a href="#" class="hover-link">Contact</a></li>
+                        <img src="images/dribbble-logo.png" alt="logo">
+                        <img src="images/instagram.png" alt="insta">
+                        <img src="images/twitter-logo-silhouette.png" alt="bird">
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </footer>
     
     </div>
+
     
 </body>
 </html>
